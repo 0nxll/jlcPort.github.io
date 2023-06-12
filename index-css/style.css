@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  -webkit-touch-callout: none; /* Disable long press on mobile */
+  -webkit-user-select: none; /* Disable text selection on webkit browsers */
+  -moz-user-select: none; /* Disable text selection on Firefox */
+  -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+  user-select: none; /* Disable text selection on other browsers */
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    pointer-events: none;
+   }
+  
+  @font-face {
+    font-family: fontAkira;
+    src: url(../fonts/Akira.otf);
+  }
+  
+  @font-face {
+    font-family: fontBN;
+    src: url(../fonts/BebasNeue-Regular.otf);
+  }
+  
+  @font-face {
+    font-family: fontDOGMA;
+    src: url(../fonts/DOGMA.otf);
+  }
+
+
+  .whiteText {
+    color: #CBE4DE;
+  }
+
+
+
+/* FIRST PAGE */
+
+.firstPagePanel {
+  margin: 20px 0px 200px 0px;
+}
+
+  .socialDiv {
+    margin: 150px 10% 30px 8%;
+  }
+
+  .socialS {
+    display: flex;
+    gap: 2rem;
+  }
+
+    .iconIcon {
+      width: 48px;
+      height: 48px;
+    }
+
+
+  .nameDiv{
+    margin: 0 0 5% 5%;
+  }
+
+
+    #nameTitle{
+      font-size: 4rem;
+      margin: 0% 0% 0% 0%;
+      letter-spacing: 5px;
+      font-family: fontAkira;
+      font-stretch: extra-expanded;
+    }
+
+    #semiTitle {
+      font-family: fontBN;
+      letter-spacing: 5px;
+    }
+
+  .introMe {
+    font-family: fontBN;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    margin: 10% 10% 10% 10%;
+    letter-spacing: 2px;
+
+    /* overflow: hidden; */
+
+  }
+
+  .introMe h2 {
+    width: 100%; 
+    text-align: right; 
+    /* border-bottom: 1px solid #ccc;  */
+    line-height: 0em;
+    margin: 10px 0 3rem; 
+  }
+
+  .introMe span {
+    color: #CBE4DE;
+    background:#2E4F4F; 
+    padding:0 10px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+
+  }
+
+  .iconImg {
+    /* position: absolute; */
+    float: right;
+    margin: 0% 10% 0% 25%;
+  }
+
+
+/* SECOND PAGE */
+
+.aboutHero {
+    /* position: absolute; */
+  margin: 120px 0px 160px 0px;
+  /* margin: 8% 3% 12% 3%; */
+  }
+  
+    .detailMain {
+      font-family: fontDOGMA;
+      letter-spacing: 1px;
+      font-size: 1.5rem;
+      overflow: hidden;
+
+      color: #CBE4DE;
+    }
+
+    .detailSub1 {
+        margin: 2% 0;
+        text-align: start;
+        font-family: fontDOGMA;
+        letter-spacing: 2px;
+
+        color: #CBE4DE;
+
+      }
+  
+    .detailSub2 {
+      margin: 2% 0;
+      text-align: end;
+      font-family: fontDOGMA;
+      letter-spacing: 2px;
+
+
+      color: #CBE4DE;
+      
+    }
+
+
+
+/* THIRD PAGE */
+
+
+.projectDiv {
+    margin: 5% 5% 10% 5%;
+ }
+
+ .projectTitle{
+   font-family: fontBN;
+   font-size: 3rem;
+   letter-spacing: 5px;
+   text-align: center;
+   margin: 0% -2% 2% -2%;
+ }
+
+ .projectTitle h4 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #CBE4DE; 
+   line-height: 0em;
+   margin: 10px 0 3rem; 
+
+   color: #CBE4DE;
+ }
+
+ .projectTitle span {
+   background:#2E4F4F; 
+   
+   padding:0 10px;
+ }
+
+ /* explorationTab */
+
+ .outerLayout {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.innerLayout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+}
+
+.projDiv {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin: 0.3px;
+  width: 350px;
+
+  aspect-ratio: 350/350;
+
+  padding: 5px;
+
+  border: #000 solid 1px;
+  letter-spacing: 1.5px;
+
+
+  background: #2E4F4F;
+  
+  transition: 0.5s;
+
+
+}
+
+.projDiv:hover {
+  transform: scale(1.01);
+  background: #0c7b7e;
+  
+  /* box-shadow:  20px 20px 60px #0a5d61,
+              -20px -20px 60px #12a9af; */
+
+  transition: 0.2s;
+
+}
+
+  .newTabIcon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .projDiv:hover h2, .projDiv:hover h6, .projDiv:hover p {
+    color: #000;
+  }
+
+  .projDiv .projPic {
+    border-radius: 10px;
+    height: 150px;
+    width: 250px;
+  } 
+
+  .projDiv h2 {
+    
+    text-decoration: none;
+    color: #000;
+    font-family: fontBN;
+    font-size: 2rem;
+
+    letter-spacing: 2px;
+  }
+
+  .projDiv h6 {
+    text-decoration: none;
+    color: #000;
+    font-family: fontBN;
+    font-size: 1rem;
+    
+    text-indent: 20px;
+    text-align: justify;
+  }
+
+  .projDiv p {
+    text-decoration: none;
+    color: #000;
+    font-family: fontBN;
+    font-size: 12px;
+    /* text-align: left; */
+  }
+
+
+  .seeMore {
+    margin: 30px auto;
+    padding: 5px;
+    font-family: fontAkira;
+    font-size: 1.5rem;
+    border: #000 solid 0.5px;
+
+    
+    animation: pulsateFwd infinite;
+    transition: 0.2s;
+
+  }
+
+  .seeMore:hover {
+    letter-spacing: 2px;
+    background: #0c7b7e;
+    transform: scale(1.01);
+    transition: 0.2s;
+  }
+
+  .seeMore p {
+    text-decoration: none;
+    color: #000;
+  }
+
+
+
+
+
+  /* FOURTH PAGE */
+
+
+  .aboutMeLast {
+    margin: 15% 10% 10% 10%;
+    text-align: center;
+    font-family: fontAkira;
+    font-size: 1.5rem;
+    animation: scaleAnimation 2s infinite alternate;
+  }
+
+    .clickMe {
+      margin: 0% 0 10% 0;
+      padding: 20px;
+      text-align: center;
+      font-family: fontAkira;
+      width: max-content;
+      margin: 0 auto 12rem;
+      font-size: 1.5rem;
+
+      color: #CBE4DE;
+
+      transition: 0.2s;
+    }
+
+    .clickMe:hover {
+      transition: 0.2s;
+      border-radius: 10px;
+      animation: shake-horizontal 1s ease-in-out;
+      background: #2E4F4F;
+      box-shadow:  10px 10px 20px #284545,
+                   -10px -10px 20px #345959;
+    }
+
+    .goToAboutMe {
+      text-decoration: none;
+      color: white;
+    }
+
+
+
+
+/* FOOTER */
+
+.qouteText {
+    width: 100%;
+    font-family: fontDOGMA;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: #CBE4DE;
+  }
+  
+  

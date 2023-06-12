@@ -1,0 +1,32 @@
+@media (min-width:768px) and (max-width: 1180px) {
+
+
+    .socialDiv {
+        margin: 150px 10% 30px 10%;
+      }
+
+      .iconIcon {
+        width: 40px;
+        height: 40px;
+      }
+
+      #nameTitle {
+        font-size: 3rem;
+      }
+
+      #semiTitle {
+        font-size: 2rem;
+      }
+
+      .introMe {
+        font-size: 1rem;
+        margin: 80px 5% 10px 5%;
+      }
+
+
+/* secondPage */
+
+
+/* thirdPage */
+
+}

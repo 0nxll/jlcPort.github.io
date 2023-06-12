@@ -1,0 +1,334 @@
+/* ANIMATIONS */
+
+@keyframes moveText {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    100% {
+      transform: translateX(-100%); /* End position */
+    }
+  }
+
+
+/* FIRST PAGE */
+
+
+
+body {
+    -webkit-touch-callout: none; /* Disable long press on mobile */
+    -webkit-user-select: none; /* Disable text selection on webkit browsers */
+    -moz-user-select: none; /* Disable text selection on Firefox */
+    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+    user-select: none; /* Disable text selection on other browsers */
+}
+
+
+.playlistSpot::-webkit-scrollbar {
+    display: none; /* Chrome and Safari */
+  }
+
+.mePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 125px 0px;
+}
+
+
+    #myPic {
+        border-radius: 500px;
+        background: #7f4a4a;
+        box-shadow:  20px 20px 60px #6c3f3f,
+        -8px -8px 20px #221414;
+        padding: 5px;
+        border-style: hidden;
+        width: 200px;
+        height: 100%;
+        
+
+    }
+
+    .myPic {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 20%;
+
+        
+    }
+
+    .socialIcons {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: row;
+        margin: 50px 0 0 0;
+        gap: 50px;
+    }
+
+    .myName{
+        text-align: center;
+        font-family: fontAkira;
+        font-size: 3rem;
+    }
+
+    
+/* SECOND PAGE */
+
+    .aboutMe h3{
+        margin:0 0 20px 0;
+        font-family: fontBN;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #ffffff; 
+        line-height: 0em;
+        margin: 10px 0 3rem;
+    }
+
+    .aboutMe span {
+        color: #CBE4DE;
+        background:#1f1212; 
+        padding:0 10px;
+        letter-spacing: 5px;
+        border-radius: 5px;
+    }
+
+    .subDetail {
+        background-color: #1f1212;
+        padding: 10% 10%;
+        width: 100%;
+        font-family: fontBN;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        margin: 0px 0px 25px 0;
+}
+        .detailText{
+            text-align: center;
+            margin: 0px 0 50px 0;
+        }
+    
+    .profileList {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+/* THIRD PAGE */
+
+
+.infoMe{
+    margin: 70px 8% 70px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.hobbiesArea {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.hobbies {
+    margin: 20px 0;
+}
+
+    .hobbies h2{
+        margin: 0 0 20px 0;
+        font-family: fontBN;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 10px;
+
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #ffffff; 
+        line-height: 0em;
+        margin: 10px 0 3rem; 
+    }
+
+    .hobbies span {
+        color: #CBE4DE;
+        background:#1f1212; 
+        padding:0 10px;
+        letter-spacing: 5px;
+        border-radius: 5px;
+    }
+
+    .iconInterests{
+        height: auto;
+        width: 20px;
+    }
+
+.favorites h2 {
+    margin: 0 0 10px 0;
+    font-family: fontBN;
+    text-align: left;
+    font-size: 2rem;
+    letter-spacing: 10px;
+
+    width: 100%; 
+    border-bottom: 1px solid #ffffff; 
+    line-height: 0em;
+    margin: 10px 0 0px 0; 
+}
+
+
+.favorites span {
+    color: #CBE4DE;
+    background:#1f1212; 
+    padding:0 10px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+
+.layout {
+    width: 100%;
+  
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+  }
+
+  .layoutBox {
+    text-align: center;
+  }
+
+  .layoutBox h6 {
+    font-family: fontBN;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .layoutBox p {
+    font-family: fontBN;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+
+
+
+
+
+
+      .thirdPageTitle {
+        font-family: fontBN;
+        color: #CBE4DE;
+        letter-spacing: 3px;
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .thirdPageText {
+        font-family: fontBN;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        padding: 2px;
+      }
+
+      
+
+
+/* FOURTH PAGE */
+
+
+.spotPlaylist {
+    margin: 50px 20px;
+}
+
+    .spotText {
+        font-family: fontBN;
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+    }
+
+
+.playlistSpot {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    /* align-items: center; */
+    overflow-x: scroll;
+    overflow-y:hidden;
+    white-space: wrap;
+    gap: 2rem;
+    margin: 0 0 0 0;
+}
+
+    .playlistTrack {
+        display: inline-block;
+        text-align: center;
+
+        border-radius: 10px;
+        background: #4f2e2e;
+        box-shadow:  9px 9px 9px #432727,
+                     -9px -9px 9px #5b3535;
+        padding: 20px;
+
+        margin: 50px;
+
+    }
+
+    .playlistSpot::-webkit-scrollbar {
+        display: none;
+      }
+
+        .playlistPic {
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .playlistText {
+            font-family: fontAkira;
+            letter-spacing: 2px;
+            font-size: 2rem;
+            color: #ffffff;
+        }
+
+        .playlistDetail {
+            font-family: fontBN;
+            font-size: 1.2rem;
+        }
+
+    .swipeDetailText{
+        font-family: fontBN;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+
+/* FOOTER PAGE */
+
+
+.endPage {
+    background-color: #1f1212;
+    color: whitesmoke;
+    padding: 10% 0% 2% 0%;
+}
+
+.qouteText {
+    width: 100%;
+    font-family: fontDOGMA;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+  }
+

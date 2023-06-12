@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body::-webkit-scrollbar{
+    display: none;
+    }
+
+@font-face {
+    font-family: fontAkira;
+    src: url(../fonts/Akira.otf);
+    }
+    
+    @font-face {
+    font-family: fontBN;
+    src: url(../fonts/BebasNeue-Regular.otf);
+    }
+    
+    @font-face {
+    font-family: fontDOGMA;
+    src: url(../fonts/DOGMA.otf);
+    }
+
+
+    .firstPage {
+        background-color: #1f1212;
+
+        background-image: url('/img/antiPatternWall/antipattern1.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1% 0% 1% 0%;
+        color: whitesmoke;
+    }
+
+    .secondPage {
+        background-color: #1f1212;
+        padding: 1% 0% 1% 0%;
+        color: whitesmoke;
+    }
+
+
+    .thirdPage {
+        background-image: url('/img/antiPatternWall/antiwaves1.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1% 0% 1% 0%;
+        color: whitesmoke;
+
+    }
+
+        .hobbiesArea {
+            border-radius: 50px;
+            background: #1f1212;
+            box-shadow:  12px 12px 35px #1a0f0f,
+                        -12px -12px 35px #241515;
+        }
+        .favMe {
+            border-radius: 50px;
+            background: #1f1212;
+            box-shadow:  12px 12px 35px #1a0f0f,
+                        -12px -12px 35px #241515;
+        }
+    .fourthPage {
+        background-image: url('/img/antiPatternWall/antilayeredpeaks1.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1% 0% 1% 0%;
+        color: whitesmoke;
+    }

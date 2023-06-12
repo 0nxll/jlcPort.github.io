@@ -1,0 +1,119 @@
+@media only screen and (min-width:1181px) {
+    
+
+    /* firstPage */
+
+    .mePage {
+        align-items: baseline;
+        margin: 150px 0px 200px 50px;
+    }
+
+    .socialIcons {
+        margin: 50px 0 50px 50px;
+    }
+
+    #myPic {
+        
+        width: 300px;
+    }
+
+    .myName {
+        text-align: left;
+        margin: 0 40% 0 50px;
+    }
+    
+    .myPic {
+        position: absolute;
+        margin: 0px 0 0 65%;
+        /* display: inline-block;
+        justify-content: right; */
+    }
+
+
+    /* secondPage */
+
+    .aboutMe h3 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .subDetail {
+        font-size: 2rem;
+    }
+
+    .profileList {
+        font-size: 2rem;
+    }
+
+    /* thirdPage */
+
+.hobbiesArea {
+    
+    margin: 0 200px 0 200px;
+}
+
+    .hobbies h2 {
+        font-size: 3rem;
+    }
+
+        .hobbyMe {
+            margin: 30px;
+            font-size: 1.5rem;
+        }
+
+    .favorites h2 {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+        .favMe {
+            width: 500px;
+            margin: 5% 3% 5% 3%;
+            font-size: 1.5rem;
+        }
+        
+        .thirdPageText {
+            font-size: 2rem;
+        }
+
+
+
+    /* fourthPage */
+
+
+    .spotPlaylist {
+        margin: 50px 50px 0 50px;
+    }
+        .spotText {
+            font-size: 3rem;
+        }
+
+        .playlistSpot {
+            justify-content: center;
+            /* margin: 0 5% 5% 5%; */
+            gap: 2rem;
+        }
+
+        .playlistTrack {
+            margin: 5%;
+        }
+
+            .playlistText {
+                font-size: 3.5rem;
+            }
+
+            .playlistDetail {
+                font-size: 2rem;
+            }
+
+        .swipeDetailText {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        /* FOOTER */
+
+        .qouteText {
+            font-size: 2rem;
+        }
+}

@@ -1,0 +1,111 @@
+@media only screen and (max-width: 767px) {
+
+    /* firstPage */
+
+    .socialDiv {
+        margin: 150px 10% 20px 5%;
+      }
+
+    .socialS {
+        gap: 0.8rem;
+        
+      }
+
+    .iconIcon {
+        width: 40px;
+        height: 40px;
+      }
+
+    #nameTitle {
+        margin: 0px;
+        font-size: 3.5rem;
+    }
+
+    #semiTitle {
+        margin: 10px 0px 20px 0px;
+    }
+
+    .introMe {
+        font-size: 1rem;
+        margin: 50px 10px 10px 10px;
+    }
+
+    .firstPagePanel {
+        margin: 20px 0px 60% 0px;
+    }
+
+    /* secondPage */
+
+.aboutHero {
+    margin: 40% -1% 50% -1%;
+}
+
+    .detailMain {
+        text-indent: 10px;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .detailSub1, .detailSub2 {
+        font-size: 0.8rem;
+    }
+
+
+    /* thirdPage */
+
+.projectTitle {
+    font-size: 1.5rem;
+}
+
+.projDiv {
+    width: 100%;
+}
+
+    .projDiv .projPic {
+        height: 140px;
+        width: 280px;
+    } 
+
+    .projDiv h2 {
+        font-size: 1.4rem;
+    }
+
+    .projDiv h6 {
+        font-size: 1rem;
+    }
+
+    .projDiv p {
+        font-size: 0.9rem;
+    }
+
+    .seeMore p{
+        font-size: 1.2rem;
+        color: #000;
+    }
+
+       /* fourthPage */
+
+       /* footerPage */
+
+.aboutMeLast {
+    margin-top: 200px;
+    font-size: 1.4rem;
+}
+
+.qouteText {
+    width: 100%;
+    font-family: fontDOGMA;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.clickMe:hover {
+    background: #2C3333;
+    box-shadow:  10px 10px 20px #262c2c,
+                 -10px -10px 20px #323a3a;
+}
+
+
+}
